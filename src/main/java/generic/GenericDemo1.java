@@ -13,6 +13,9 @@ import java.util.List;
 public class GenericDemo1 {
     public static void main(String[] args) throws Exception {
 
+        //    Object obj = 666;//会自动装箱 obj为Integer类型 等价于下面这个
+//        Object obj = Integer.valueOf(666);
+
         List<String> list = new ArrayList<>();
         list.add("aaa");
         list.add("bbb");
@@ -27,5 +30,7 @@ public class GenericDemo1 {
         for (Object obj : list) {
             System.out.println(obj);
         }
+
+
     }
 }

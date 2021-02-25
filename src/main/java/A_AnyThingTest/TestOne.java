@@ -1,9 +1,5 @@
 package A_AnyThingTest;
 
-import io.netty.handler.codec.http.HttpObject;
-
-import javax.servlet.http.HttpServlet;
-
 /**
  * XXXX
  *
@@ -32,7 +28,6 @@ public class TestOne {
 
         Biology biology = new Biology();
         Animal animal11=(Animal) biology;
-        Biology biology1 = (Biology)animal1;
     }
 }
 
@@ -46,5 +41,5 @@ class Animal extends Biology{
     }
 }
 
- class Biology{
+class Biology{
 }

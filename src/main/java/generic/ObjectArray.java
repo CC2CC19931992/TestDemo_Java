@@ -25,6 +25,7 @@ public class ObjectArray {
         Integer zero = (Integer) objects[0];
         Integer one = (Integer) objects[1];
 
+
         // 2. 编译期编译后，会根据类型参数自动转换，不用我们操心。转为String
         String two = (String) objects[2];
         String three = (String) objects[3];

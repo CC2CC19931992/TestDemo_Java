@@ -59,6 +59,11 @@
             <artifactId>spring-aop</artifactId>
             <version>4.3.6.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.5.8</version>
+        </dependency>
     </dependencies>
 
 
