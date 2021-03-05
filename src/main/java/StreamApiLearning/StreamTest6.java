@@ -28,7 +28,7 @@ public class StreamTest6 {
     }
 
     public static void main(String[] args) {
-        //下面这段代码会报错 Duplicate key，因为有重复Key
+        //下面这段代码会报错 Duplicate key，因为有重复Key[Map数据结构是不允许有重复key的]
 //        Map<String, Person> nameToPersonMap = list.stream().collect(Collectors.toMap(Person::getName, person -> person));
 //        System.out.println(nameToPersonMap);
 
