@@ -38,6 +38,7 @@ public class MyContainer1<T> {
         T t = null;
         while(lists.size() == 0) {
             try {
+                System.out.println("================");
                 this.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -56,7 +57,7 @@ public class MyContainer1<T> {
         for(int i=0; i<10; i++) {
             new Thread(()->{
                 for(int j=0; j<5; j++){
-                    System.out.println(c.get());
+                    System.out.println("消费线程 "+ Thread.currentThread().getName() +"，消费内容"+c.get());
                 }
             }, "c" + i).start();
         }
