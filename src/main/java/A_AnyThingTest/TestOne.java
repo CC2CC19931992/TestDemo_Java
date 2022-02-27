@@ -8,26 +8,29 @@ package A_AnyThingTest;
  */
 public class TestOne {
     public static void main(String []args){
-        Animal animal = new Animal(){
-            String name;
-
-            @Override
-            protected void getName(){
-                System.out.println("人类");
-            }
-
-            @Override
-            public void getAge(){
-                System.out.println("ca");
-            }
-        };
-        System.out.println(animal.getClass());
-        Animal animal1= new Animal();
-        System.out.println(animal1.getClass());
-        System.out.println("结束");
+//        Animal animal = new Animal(){
+//            String name;
+//
+//            @Override
+//            protected void getName(){
+//                System.out.println("人类");
+//            }
+//
+//            @Override
+//            public void getAge(){
+//                System.out.println("ca");
+//            }
+//        };
+//        System.out.println(animal.getClass());
+//        Animal animal1= new Animal();
+//        System.out.println(animal1.getClass());
+//        System.out.println("结束");
 
         Biology biology = new Biology();
-        Animal animal11=(Animal) biology;
+        System.out.println(biology.getName1());
+
+        Biology biology1 = new Biology();
+        //Animal animal11=(Animal) biology;
     }
 }
 
@@ -42,4 +45,15 @@ class Animal extends Biology{
 }
 
 class Biology{
+
+    private String name1;
+
+
+    public String getName1() {
+        return this.name1;
+    }
+
+    public void setName1(String name1) {
+        this.name1 = name1;
+    }
 }

@@ -1,6 +1,5 @@
 package MethodReferenceTest;
 
-import java.util.Collection;
 import java.util.Comparator;
 
 /**

@@ -6,7 +6,6 @@ import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
-import java.sql.DriverManager;
 
 /**
  * CGLib代理 https://www.jianshu.com/p/829e93528d56 由Spring内置提供的
